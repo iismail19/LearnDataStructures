@@ -25,7 +25,7 @@ public class ClassDataArray
 	public void insert(String last, String first, int age)
 	{
 		a[nElems] = new Person(last, first, age);
-		nElems++; // increament
+		nElems++; // increment
 	}
 
 	public boolean delete(String searchName)
@@ -40,7 +40,7 @@ public class ClassDataArray
 		{
 			for(int k = j; k > j; k++) // shift down the array
 				a[k] = a[k+1];
-			nElems--; // decreament
+			nElems--; // decrement
 			return true;
 		}
 	}
