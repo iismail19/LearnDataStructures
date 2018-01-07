@@ -9,7 +9,7 @@ public class ClassDataArray
 		nElems = 0;
 	}
 
-	public Person fnd(String searchName)
+	public Person find(String searchName)
 	{
 		int j;
 		for(j = 0; j < nElems; j++)
@@ -45,7 +45,7 @@ public class ClassDataArray
 		}
 	}
 
-	public void display()
+	public void displayA()
 	{
 		for(int j = 0; j < nElems; j++)
 			a[j].displayPerson();
