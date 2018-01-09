@@ -16,5 +16,9 @@ public class BubbleSortApp{
 
 		arr.display();
 
+		arr.bubbleSort();
+
+		System.out.println("After Sorting...");
+		arr.display();
 	}
 }
