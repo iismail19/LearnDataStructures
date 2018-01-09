@@ -1,8 +1,9 @@
-public class BubbleSortApp{
-
-	public static void main(String[] args) {
+public class SelectionSortApp
+{
+	public static void main(String[] args)
+	{
 		int maxSize = 100;
-		ArrayBubbleSort arr = new ArrayBubbleSort(maxSize);
+		ArraySelectionSort arr = new ArraySelectionSort(maxSize);
 
 		arr.insert(77);
 		arr.insert(99);
@@ -17,9 +18,9 @@ public class BubbleSortApp{
 
 		arr.display();
 
-		arr.bubbleSort();
+		arr.selectionSort();
 
 		System.out.println("After Sorting...");
-		arr.display();
+		arr.display();	
 	}
 }
