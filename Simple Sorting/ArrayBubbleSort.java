@@ -1,8 +1,8 @@
-public class ArrayBubbeSort{
+public class ArrayBubbleSort{
 	private long[] a; // ref to array a
 	private int nElems; // number of data items
 
-	public ArrayBubbeSort(int max) // constructor
+	public ArrayBubbleSort(int max) // constructor
 	{
 		a = new long[max]; // create the array
 		nElems = 0; // no items yet
