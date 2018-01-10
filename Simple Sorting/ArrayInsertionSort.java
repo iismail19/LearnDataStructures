@@ -25,13 +25,14 @@ public class ArrayInsertionSort{
 	{
 		int in, out;
 
-		for(out =1; out< nElems; out++)
+		for(out =1 ; out< nElems; out++)
 		{
-			long temp = a[out]
-			out = in;
+			long temp = a[out];
+			in = out;
 			while(in >0 && a[in-1] >= temp)
 			{
 				a[in] = a[in-1];
+				--in;
 			}
 			a[in] = temp;
 		}
