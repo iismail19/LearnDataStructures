@@ -1,6 +1,6 @@
 public class StackX
 {
-	private int maxSize
+	private int maxSize;
 	private long[] stackArray;
 	private int top;
 
